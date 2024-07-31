@@ -23,18 +23,18 @@ from .poverty_impact.deep_poverty.by_gender.by_gender import (
     AllPoverty as DeepGenderAllPoverty
 )
 
-from .budgetary_impact.by_program.by_program import (
-    IncomeTax, 
-    NationalInsurance, 
-    Vat, 
-    CouncilTax, 
-    FuelDuty, 
-    TaxCredits, 
-    UniversalCredit, 
-    ChildBenefit, 
-    StatePension, 
-    PensionCredit
-)
+# from .budgetary_impact.by_program.by_program import (
+#     IncomeTax, 
+#     NationalInsurance, 
+#     Vat, 
+#     CouncilTax, 
+#     FuelDuty, 
+#     TaxCredits, 
+#     UniversalCredit, 
+#     ChildBenefit, 
+#     StatePension, 
+#     PensionCredit
+# )
 
 from policyengine.economic_impact.budgetary_impact.overall.overall import (
     BudgetaryImpact, 
