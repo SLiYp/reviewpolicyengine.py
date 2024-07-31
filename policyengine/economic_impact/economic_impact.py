@@ -36,11 +36,10 @@ from .budgetary_impact.by_program.by_program import (
     PensionCredit
 )
 
-from .budgetary_impact.overall.overall import (
+from policyengine.economic_impact.budgetary_impact.overall.overall import (
     BudgetaryImpact, 
     BenefitSpendingImpact, 
-    TaxRevenueImpact
-)
+    TaxRevenueImpact)
 
 from typing import Dict
 
